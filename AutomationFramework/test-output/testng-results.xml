@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutoFrameTestSuite" duration-ms="33607" started-at="2016-07-14T01:52:07Z" finished-at="2016-07-14T01:52:41Z">
+    <groups>
+    </groups>
+    <test name="FuncTest" duration-ms="33607" started-at="2016-07-14T01:52:07Z" finished-at="2016-07-14T01:52:41Z">
+      <class name="com.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.HomePageTest@14d0e66]" name="setUp" is-config="true" duration-ms="5776" started-at="2016-07-13T18:52:07Z" finished-at="2016-07-13T18:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.HomePageTest@14d0e66]" name="initialize" is-config="true" duration-ms="2" started-at="2016-07-13T18:52:13Z" finished-at="2016-07-13T18:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testCountsocialIcons()[pri:0, instance:com.test.HomePageTest@14d0e66]" name="testCountsocialIcons" duration-ms="3303" started-at="2016-07-13T18:52:13Z" finished-at="2016-07-13T18:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountsocialIcons -->
+        <test-method status="PASS" signature="testLoginClick()[pri:0, instance:com.test.HomePageTest@14d0e66]" name="testLoginClick" duration-ms="3732" started-at="2016-07-13T18:52:16Z" finished-at="2016-07-13T18:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginClick -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.test.HomePageTest@14d0e66]" name="quit" is-config="true" duration-ms="641" started-at="2016-07-13T18:52:20Z" finished-at="2016-07-13T18:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.test.HomePageTest -->
+      <class name="com.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginPageTest@1ec6c08]" name="setUp" is-config="true" duration-ms="4912" started-at="2016-07-13T18:52:21Z" finished-at="2016-07-13T18:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.test.LoginPageTest@1ec6c08]" name="initialize" is-config="true" duration-ms="2742" started-at="2016-07-13T18:52:25Z" finished-at="2016-07-13T18:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.test.LoginPageTest@1ec6c08]" name="testInvalidLogin" duration-ms="11966" started-at="2016-07-13T18:52:28Z" data-provider="user-data" finished-at="2016-07-13T18:52:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[geeta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[geeta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.test.LoginPageTest@1ec6c08]" name="quit" is-config="true" duration-ms="513" started-at="2016-07-13T18:52:40Z" finished-at="2016-07-13T18:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.test.LoginPageTest -->
+    </test> <!-- FuncTest -->
+  </suite> <!-- AutoFrameTestSuite -->
+</testng-results>
